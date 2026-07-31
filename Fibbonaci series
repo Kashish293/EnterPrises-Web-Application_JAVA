@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the  fibbonaci number: ");
+        int number=sc.nextInt();
+       int first=0;
+       int second=1;
+        for(int i=1;i<=number;i++){
+          System.out.println(first+ " " );
+          int sum=first+second;
+          first=second;
+          second=sum;
+          
+        }
+        sc.close();
+    }
+}
